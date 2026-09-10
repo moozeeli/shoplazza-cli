@@ -94,7 +94,7 @@ func New(baseURL string) *Client {
 	}
 	// TEMP(feature-cli): gateway route flag for the themes edit-session /
 	// page-builder endpoint family; remove once the endpoints ship.
-	c.Headers["x-rf"] = "feature-cli"
+	c.Headers["x-rf"] = "feature-theme-skills"
 	return c
 }
 
